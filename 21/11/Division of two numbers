@@ -1,0 +1,9 @@
+a=int(input('Enter a value:'))
+b=int(input('Enter b value:'))
+c=a/b
+print(c)
+
+out put:
+Enter a value:10
+Enter b value:2
+5.0
