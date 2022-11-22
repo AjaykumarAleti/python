@@ -1,0 +1,12 @@
+p=int(input('princial amoung:'))
+si=int(input('simple intrest:'))
+t=int(input('time period:'))
+emi=(si+p)/t*12
+print('total EMI:',emi)
+
+out put:
+
+princial amoung:100000
+simple intrest:5
+time period:2
+total EMI: 600030.0
