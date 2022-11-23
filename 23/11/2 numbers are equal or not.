@@ -1,0 +1,11 @@
+a=int(input("Enter a value:"))
+b=int(input("Enter b value:"))
+if a==b:
+    print('Both are equal')
+else:
+    print('both are not equal')
+    
+out put:
+Enter a value:4
+Enter b value:4
+Both are equal
