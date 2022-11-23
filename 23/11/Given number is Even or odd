@@ -1,0 +1,9 @@
+a=int(input("Enter a value:"))
+if a%2==0:
+    print('a value is even')
+else:
+    print('a value is odd')
+    
+out put:
+Enter a value:6
+a value is even
