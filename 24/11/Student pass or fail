@@ -1,0 +1,21 @@
+sno=int(input("enter numbers:"))
+name=input("enter the student name:")
+group=input("enter student group:")
+s1=int(input("enter python:"))
+s2=int(input("enter operating system:"))
+s3=int(input("enter java:"))
+if(s1>=35):
+    print("pass")
+elif(s2>=35 and s3>=35):
+    print("pass")
+else:
+    print("fail")
+
+output:
+enter numbers:03
+enter the student name:akki
+enter student group:bca
+enter python:37
+enter operating system:57
+enter java:65
+pass
