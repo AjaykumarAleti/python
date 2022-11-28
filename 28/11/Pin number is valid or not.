@@ -1,0 +1,18 @@
+p=1234
+pin=int(input('Enter pin number:'))
+if pin==p:
+    print('It is valid.')
+    print('continue the transaction.')
+else:
+    print('It is not valid.')
+    print('Incorrect pin number ,please try again.')
+
+ouit put 1:
+Enter pin number:1234
+It is valid.
+continue the transaction.
+
+out put 2:
+Enter pin number:4143
+It is not valid.
+Incorrect pin number ,please try again.
