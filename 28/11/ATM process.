@@ -1,0 +1,16 @@
+bal=10000
+amount=int(input('enter amount:'))
+if(amount>bal):
+    print("in sufficient balance in your account")
+    print('please try again')
+else:
+    c=bal-amount
+    print("transaction processing successfully....")
+    print("credit amount",amount)
+    print("main balance:",c)
+
+output:
+enter amount:3000
+transaction processing successfully....
+credit amount 3000
+main balance: 7000
