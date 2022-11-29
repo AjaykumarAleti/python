@@ -1,0 +1,23 @@
+a=int(input('Enter a value:'))
+b=int(input('Enter b value:'))
+c=int(input('Enter c value:'))
+d=int(input('Enter d value:'))
+if a>b and a>c and a>d:
+    print('The first number is big:',a)
+elif b>a and b>c and b>d:
+    print('The secound number is big:',b)
+elif c>a and c>b and c>d:
+    print('The third number is big:',c)
+elif d>a and d>b and d>c:
+    print('The fourth number is big:',d)
+    
+out put:
+
+Enter a value:10
+Enter b value:20
+Enter c value:30
+Enter d value:40
+The fourth number is big: 40
+
+
+    
