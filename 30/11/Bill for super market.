@@ -1,0 +1,32 @@
+cname=input('Enter customer name:')
+cphno=int(input('Enter customer phno:'))
+caddress=input('Enter customer address:')
+a=int(input('Enter shampoo cost:'))
+b=int(input('Enter  horlicks cost:'))
+c=int(input('Enter oil cost:'))
+d=int(input('Enter boost cost:'))
+e=int(input('Enter rice cost:'))
+bill=a+b+c+d+e
+if bill>3000:
+  tax=bill*5/100
+elif bill>2000:
+ tax=bill*7/100
+elif bill>1000:
+ tax=bill*10/100
+elif bill>500:
+ tax=bill*15/100
+amount=tax+bill
+print('total amount:',amount)
+print('tax:',tax)
+out put:
+
+Enter customer name:Ajay
+Enter customer phno:9347990587
+Enter customer address:20c/11/27
+Enter shampoo cost:200
+Enter  horlicks cost:100
+Enter oil cost:200
+Enter boost cost:200
+Enter rice cost:100
+total amount: 920.0
+tax:120
