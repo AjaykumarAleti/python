@@ -1,0 +1,51 @@
+cname=input('Enter customer name:')
+cphno=int(input('Enter customer phno:'))
+caddress=input('Enter customer address:')
+a=int(input('Enter shampoo cost:'))
+b=int(input('Enter  horlicks cost:'))
+c=int(input('Enter oil cost:'))
+d=int(input('Enter boost cost:'))
+e=int(input('Enter rice cost:'))
+bill=a+b+c+d+e
+if bill>3000:
+  tax=bill*5/100
+elif bill>2000:
+ tax=bill*7/100
+elif bill>1000:
+ tax=bill*10/100
+elif bill>500:
+ tax=bill*15/100
+amount=tax+bill
+coupon=input('Enter coupon code:')
+if coupon=='DIWALI' and  bill>5000:
+    dis=bill*10/100
+elif bill>3000:
+    dis=bill*6/100
+elif bill>1000:
+    dis=bill*4/100
+else:
+    dis=0
+if coupon=='CHRISMAS' and bill>3000:
+    dis=bill*20/100
+elif bill>2000:
+    dis=bill*10/100
+elif bill>1000:
+    dis=bill*5/100
+else:
+    dis=0
+print('total amount:',amount)
+print('discount:',dis)
+print('tax:',tax)
+out put:
+Enter customer name:Ajay
+Enter customer phno:9347990587
+Enter customer address:20c/11/27
+Enter shampoo cost:200
+Enter  horlicks cost:100
+Enter oil cost:200
+Enter boost cost:200
+Enter rice cost:100
+Enter coupon code:DIWALI
+total amount: 920.0
+discount: 0
+tax: 120.0
