@@ -1,0 +1,58 @@
+1st model.........
+
+
+def biggestvalue(a,b):
+    if a>b:
+        print('A is big number.')
+    else:
+        print('B is big number.')
+a=int(input('Enter A value:'))
+b=int(input('Enter B value:'))
+biggestvalue(a,b) 
+out put:
+Enter A value:4
+Enter B value:2
+A is big number.
+
+
+
+2nd model...........
+
+
+
+def Biggestnumber(a,b):
+   if a>b:
+    return"A is big"
+   else:
+    return"B is big"
+a=int(input("Enter A value:"))
+b=int(input("Enter B value:"))
+print(Biggestnumber(a,b))
+
+out put:
+Enter A value:4
+Enter B value:2
+A is big
+
+
+
+3rd model.............
+
+
+
+
+def Biggestnumber(a,b):
+    if a>b:
+        return True
+    else:
+        return False
+a=int(input("Enter A value:"))
+b=int(input("Enter B value:"))
+if(Biggestnumber(a,b)):
+    print("A is Bigg")
+else:
+    print("B is Bigg")
+out put:
+Enter A value:4
+Enter B value:2
+A is Bigg
