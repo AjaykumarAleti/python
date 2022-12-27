@@ -1,0 +1,27 @@
+n=int(input('How many values to be entered:'))
+l=list(map(int,input().split()))
+se=int(input('Enter the searching element:'))
+check=0
+for i in range(0,n):
+    if l[i]==se:
+        print('Element is found at index',i)
+        check=1
+        break
+if check==0:
+   print('Element is not found')
+
+
+OUTPUT:
+
+How many values to be entered:6
+1 2 3 3 5 6
+Enter the searching element:4
+Element is not found
+
+
+OUTPUT:
+
+How many values to be entered:6
+1 2 3 3 5 6
+Enter the searching element:6
+Element is found at index 5
