@@ -1,0 +1,29 @@
+n=int(input('How many values to be entered:'))
+l=list(map(int,input().split()))
+se=int(input('Enter the searching element:'))
+check=0
+for i in range(0,n):
+    if l[i]==se:
+        print(i,end=' ')
+        check=1
+if check==0:
+   print('-1')
+
+
+
+OUTPUT:
+
+
+How many values to be entered:9
+1 7 9 4 5 1 7 9 0
+Enter the searching element:7
+1 6
+
+
+OUTPUT:
+
+
+How many values to be entered:9
+1 7 9 4 5 1 7 9 0
+Enter the searching element:14
+-1
