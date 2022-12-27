@@ -1,0 +1,31 @@
+n=int(input())
+l=list(map(int,input().split()))
+se=int(input())
+low=0
+high=n-1
+mid=(low+high)
+flag=0
+while high>=low:
+    if se>l[mid]:
+        low=mid+1
+    elif se==l[mid]:
+        flag=1
+        break
+    else:
+        high=mid-1
+    mid=(low+high)
+if flag==1:
+    print('Element is found at',mid,'index location')
+else:
+    print('Element is not found')
+
+
+
+
+OUTPUT:
+
+
+9
+10 20 50 60 80 90 110 150 180
+150
+Element is found at 7 index location
